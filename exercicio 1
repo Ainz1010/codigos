@@ -5,3 +5,31 @@
     <body>
     <h1>Site Receitas da Tia Lari</h1>
     <h2>O Site de Receitas da Familia Paraense</h2>
+
+*************************************************************************************************************************
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>Site Receitas da Tia Lari</title>
+    </head>
+    <body style="background-color:gray;">
+    <h1>Site Receitas da Tia Lari</h1>
+    <h2>O Site de Receitas da Família Paraense</h2>
+    <h4>A seguir vamos colocar os links com as nossas principais receitas,basta clicar no link abaixo que você verá receita completa</h4>
+    <p>Receita Nega Maluca <a href="https://www.youtube.com/">Clica aqui</a> 
+    	</p>
+    <p>Torta Isabel <a href="">Clica aqui</a>
+    	</p>
+    <p>Mingal de Milho <a href="">Clica aqui</a>
+    	</p>
+    <p>Vatapá <a href="">Clique aqui</a>
+    	</p>
+        
+        
+ 	<h2>Obrigado por Visitar o nosso Site !</h2>
+    
+    <h4>Caso queira entrar em contato comigo,basta clicar nos links abaixo:</h4>
+    <a href="">Contato por Email: lariluz@gmail.com</a> <br>
+    <a href="">Contato por celular:(91)988.28.11.12</a>
+    </body>
+    </html>
