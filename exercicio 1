@@ -33,3 +33,39 @@
     <a href="">Contato por celular:(91)988.28.11.12</a>
     </body>
     </html>
+
+*************************************************************************************************************************************
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>Receita Nega Maluca</title>
+    </head>
+    <body style="background-color:white;">
+    <h1>Receita Nega Maluca</h1>
+    <h2>Segui A receita abaixo</h2>
+	<hr></hr>
+    <p> 3 ovos </p>
+	<p>	1 xícara de água quente </p>
+	<p>	1 colher de café solúvel </p>
+	<p>	2 xícaras de açúcar demerara </p>
+	<p>	3 xícaras de trigo </p>
+    
+    <img src="Caminho da imagem" width="500" height="300">
+    
+    <h2>Modo de Preparo</h2>
+    <p>Bata o cacau, óleo, ovos, açúcar na batedeira.</p>
+    <p>Quando estiver bem incorporado, adicione o café na água quente e leve para a batedeira.</p>
+    <p>Incorpore o trigo e por último o fermento.</p>
+    <p>Leve para forma untada.</p>
+    <p>Asse em forno pré-aquecido em 180 graus por cerca de 30 a 40 minutos, o tempo varia.</p>
+        
+        
+ 	<h2>Obrigado por Visitar o nosso Site !</h2>
+    
+    <h4>Caso queira entrar em contato comigo,basta clicar nos links abaixo:</h4>
+    <a href="">Contato por Email: lariluz@gmail.com</a> <br>
+    <a href="">Contato por celular:(91)988.28.11.12</a>
+    </body>
+    </html>
+    
+    
