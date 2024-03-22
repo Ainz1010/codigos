@@ -1,1 +1,47 @@
+##CRIACÃO DE TABELA HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio Tabelas</title>
+    
+</head>
+<body>
+    <table border="5" width="1000" height="200" >
+        <tr>
+        <td>linha 1 , coluna 1</td>
+        <td>linha 1 , coluna 2</td>
+        <td>linha 1 , coluna 3</td>
+        <td>linha 1 , coluna 4</td></th>
+        </tr>
+        <tr>
+            <td>linha 2 , coluna 1</td>
+            <td>linha 2 , coluna 2</td>
+            <td>linha 2 , coluna 3</td>
+            <td>linha 2 , coluna 4</td>
+        </tr>
+        <tr>
+            <td>linha 3 , coluna 1</td>
+            <td>linha 3 , coluna 2</td>
+            <td>linha 3 , coluna 3</td>
+            <td>linha 3 , coluna 4</td>
+        </tr>
+        <table border="5">
+        <br>
+        <tr>
+            <th colspan="2">Pagamento</th>
+        </tr>
+        <tr>
+            
+        </tr>
+        <td rowspan="2">Janeiro</td>
+        <td>Gasto</td>
+        </tr>
+        <td>Lucro</td>
 
+    </table>
+    
+</body>
+</html>
+##################################################################################################################################################################################################################
