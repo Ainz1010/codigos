@@ -45,3 +45,39 @@
 </body>
 </html>
 ##################################################################################################################################################################################################################
+
+fazer soma por pagina html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Formulario</title>
+</head>
+<body>
+    <h1>Formulario Basico</h1>
+    <form action="mailto:emailtest@gmail.com" method="post" enctype="text/plain">
+        <label for="nome">digite 1º numero</label>
+        <input type="text" id="nome"></forminput>
+    </form>
+    <br>
+    <h2> Digite dois numeros para somar:</h2>
+    <input type="text" id="num1" placeholder="Digite O Primeiro numero">
+    <input type="text" id="num2" placeholder="Digite O Segundo numero">
+    <button onclick="soma()">Somar</button>
+
+    <p>O Resultado da soma é: <span id="resultado"></span></p>
+    <script>
+        function soma(){
+            var num1 =parseFloat(document.getElementById("num1").value);
+            var num2 =parseFloat(document.getElementById("num2").value);
+
+            var resultado = num1 + num2;
+
+            document.getElementById("resultado").innerHTML = resultado;
+        }
+    </script>
+    
+</body>
+</html>
