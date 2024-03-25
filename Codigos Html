@@ -289,3 +289,67 @@ TABELA HTML
     </stong>
 </body>
 </html>
+*********************************************
+exercício 5
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cadastro de Usuário - Sistema Acadêmico</title>
+</head>
+<body>
+    <h1>SISTEMA DE GESTÃO ACADÊMICA</h1>
+    <h2>MANUTENÇÃO DE USUÁRIOS DO SISTEMA INTERNO</h2>
+    
+    <form>
+        <label for="login">Login:</label>
+        <input type="text" id="login" name="login"><br><br>
+        
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha"><br><br>
+        
+        <label for="status">Status:</label>
+        <select id="status" name="status">
+            <option value="ativo">Ativo</option>
+            <option value="inativo">Inativo</option>
+        </select><br><br>
+        
+        <label for="tipo">Tipo:</label>
+        <input type="text" id="tipo" name="tipo"><br><br>
+        
+        <label for="data-criacao">Data de Criação:</label>
+        <input type="date" id="data-criacao" name="data-criacao"><br><br>
+        
+        <label for="perfil">Perfil:</label>
+        <input type="text" id="perfil" name="perfil"><br><br>
+        
+        <label for="observacoes">Observações:</label>
+        <textarea id="observacoes" name="observacoes"></textarea><br><br>
+        
+        <label for="modulos">Módulos:</label><br>
+        <input type="checkbox" id="tecnico" name="tecnico" value="Técnico">
+        <label for="tecnico">Técnico</label><br>
+        <input type="checkbox" id="professor" name="professor" value="Professor">
+        <label for="professor">Professor</label><br>
+        <input type="checkbox" id="aluno" name="aluno" value="Aluno">
+        <label for="aluno">Aluno</label><br>
+        <input type="checkbox" id="convidado" name="convidado" value="Convidado">
+        <label for="convidado">Convidado</label><br>
+        <input type="checkbox" id="administrador" name="administrador" value="Administrador">
+        <label for="administrador">Administrador</label><br>
+        <input type="checkbox" id="compras" name="compras" value="Compras">
+        <label for="compras">Compras</label><br>
+        <input type="checkbox" id="biblioteca" name="biblioteca" value="Biblioteca">
+        <label for="biblioteca">Biblioteca</label><br>
+        <input type="checkbox" id="academica" name="academica" value="Acadêmica">
+        <label for="academica">Acadêmica</label><br>
+        <input type="checkbox" id="documentacao" name="documentacao" value="Documentaciãn">
+        <label for="documentacao">Documentaciãn</label><br>
+        <input type="checkbox" id="recursos-humanos" name="recursos-humanos" value="Recursos Humanos">
+        <label for="recursos-humanos">Recursos Humanos</label><br><br>
+        
+        <input type="submit" value="Cadastrar">
+        <input type="submit" value="Excluir">
+    </form>
+</body>
+</html>
