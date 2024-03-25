@@ -259,6 +259,7 @@ TABELA HTML
 **********************************************************************************************************************************************************************
 
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -280,6 +281,9 @@ TABELA HTML
             <label for="Comentario">Comentario</label>
             <br>
             <textarea name="Comentario" id="Comentario" cols="30" rows="10"></textarea>
+
+        <h2>Oberservação: Seu comentario será Publicado após passar pelo moderador</h2>
+        <button>Enviar Comentario</button>
         
 
     </stong>
