@@ -81,3 +81,47 @@ fazer soma por pagina html
     
 </body>
 </html>
+******************************************************************************************************************************************************************
+TABELA HTML
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento Web</title>
+</head>
+<body style="background-color: antiquewhite;">
+<h1>Coisas que quero Fazer:<h1> <br>
+<table width="100%">
+    <tr> 
+        <th> O que</th>
+        <th> Quando </th>
+    </tr>
+</table>
+    <hr>
+    <table border="5" width="130%">
+        <td>Aprender a Dancar forró</td>
+        <td>Antes de entrar na Faculdade</td>
+    </tr> 
+    <tr>
+        <td>Ir à Disney</td>
+        <td> 2013</td>
+    </tr>
+<tr>
+        <td>Pular de asa delta</td>
+        <td>Quando me formar </td>
+        </tr>
+<tr>
+    <td>Comprar um Land Rover</td>
+    <td>Quando eu estiver ganhando bem</td>
+</tr>
+<tr>
+    <td>Viajar pela Europa</td>
+    <td>Antes dos 30 Anos</td>
+</tr>
+    <tr>
+    <td>Carnatal</td>
+    <td>Todos os Anos</td>
+    </tr>
+</body>
+</html>
