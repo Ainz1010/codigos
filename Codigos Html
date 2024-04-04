@@ -751,3 +751,133 @@ pizzaria
     </div>
 </body>
 </html>
+#####################################################################################################################################
+
+pizzaria freddy html
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="C:\Users\cdm-lab-nb25\Downloads\site\css\estilo03.css">
+    <title>Pizzaria do Freddy</title>
+  </head>
+  
+  <body style="background-color:gray;">
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+      <h1>Pizarria do Freddy!</h1>
+      <img class="center" src="C:\Users\cdm-lab-nb25\Downloads\site\assets\Image\png-transparent-freddy-fazbear-s-pizzeria-simulator-new-york-style-pizza-five-nights-at-freddy-s-pizzaria-pizza-removebg-preview.png" alt="Error" width="150px" height="150px">
+    </header>
+
+    <!-- Barra de Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Painel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(Pagina atual)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Destaques</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Preços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cardapio</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+          <h1>Cardápio Da Freddy Fazbear's Pizzeria</h1>
+          
+          <div class="container">
+              <div class="card">
+                  <h2>Pizza de Carne</h2>
+                  <img src="https://forneriaoriginal.com/wp-content/uploads/2020/04/carne-seca1-1.png" alt="erro" width="200px" height="200px">
+                  <p>Deliciosa pizza de carne com queijo derretido.</p>
+                  <a href="https://minervafoods.com/receitas/como-fazer-pizza-caseira-de-carne/" class="btn btn-primary">R$ 25,00</a>
+              </div>
+      
+              <div class="card">
+                  <h2>Pizza Marguerita</h2>
+                  <img src="https://www.donguilherme.com.br/assets/userfiles/archives/6405dff0d4d8d.jpg" alt="erro" width="200px" height="200px">
+                  <p>Clássica pizza de tomate e  mussarela.</p>
+                  <a href="#" class="btn btn-primary">R$ 20,00</a>
+              </div>
+      
+              <div class="card">
+                  <h2>Pizza de Frango com Catupiry</h2>
+                  <img src="https://sgnh.com.br/wp-content/uploads/2021/07/pizza_frango.png" alt="erro" width="200px" height="200px">
+                  <p>Combinação de frango desfiado e catupiry.</p>
+                  <a href="#" class="btn btn-primary">R$ 30,00</a>
+              </div>
+      
+              <div class="card">
+                  <h2>Pizza Portuguesa</h2>
+                  <img src="https://sgnh.com.br/wp-content/uploads/2021/07/pizza_portuguesa.png" alt="erro" width="200px" height="200px">
+                  <p>Pizza com presunto, mussarela, cebola, e azeitonas.</p>
+                  <a href="#" class="btn btn-primary">R$ 28,00</a>
+              </div>
+      
+              <div class="card">
+                  <h2>Pizza de Quatro Queijos</h2>
+                  <img src="https://sgnh.com.br/wp-content/uploads/2021/07/pizza_quatro.png" alt="erro" width="200px" height="200px">
+                  <p>Combinação irresistível de quatro tipos de queijo.</p>
+                  <a href="#" class="btn btn-primary">R$ 32,00</a>
+              </div>
+      
+              <div class="card">
+                  <h2>Pizza de Pepperoni</h2>
+                  <img src="https://forneriaoriginal.com/wp-content/uploads/2016/10/pepperoni.png" alt="erro" width="200px" height="200px">
+                  <p>pizza com salame.</p>
+                  <a href="#" class="btn btn-primary">R$ 27,00</a>
+              </div>
+      
+              <div class="card">
+                  <h2>Pizza de Chocolate</h2>
+                  <img src="https://assets.delirec.com/images%2FEKO85sLoLjYVNExYB2mO9tt6ulS2%2Frecipe%2F603129d6-3faa-48fc-ac9f-34a59f394ed6-Pizza-de-chocolate--gallery-0" alt="erro" width="200px" height="200px">
+                  <p>Pizza com Chocolate derretido.</p>
+                  <a href="#" class="btn btn-primary">R$ 26,00</a>
+              </div>
+      
+              <div class="card">
+                  <h2>Pizza Freddy</h2>
+                  <img src="https://www.coleka.com/media/item/202308/22/five-nights-at-freddy-s-trading-card-freddy-fazbear-s-pizza-pizza-box-poster-077.webp" alt="erro" width="200px" height="200px">
+                  <p>A famosa pizza do freddy fazbear.</p>
+                  <a href="#" class="btn btn-primary">R$ 150,00</a>
+              </div>
+      
+              <div class="card">
+                  <h2>Pizza Golden Freddy</h2>
+                  <img src="https://i.pinimg.com/736x/b6/77/ff/b677ff396513ef5fe3304e7c2d24ee76.jpg" alt="erro" width="200px" height="200px">
+                  <p>A Famosa pizza do golden freddy.</p>
+                  <a href="#" class="btn btn-primary">R$ 200,00</a>
+              </div>
+          </div>
+
+
+    
+    <footer class="rodape">
+        <p>Todos os Direitos reservados A freddy fazbear's.</p>
+
+    </footer>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
