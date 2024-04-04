@@ -667,3 +667,87 @@ pizzaria html
 </body>
 </html>
 
+
+*******
+pizzaria 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pizzaria delícia</title>
+    <style>
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .card {
+            width: 30%;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cardápio da Pizzaria delícia</h1>
+    
+    <div class="container">
+        <div class="card">
+            <h2>Pizza de Calabresa</h2>
+            <p>Deliciosa pizza de calabresa com queijo derretido.</p>
+            <p>R$ 25,00</p>
+        </div>
+
+        <div class="card">
+            <h2>Pizza Marguerita</h2>
+            <p>Clássica pizza de tomate, mussarela e manjericão.</p>
+            <p>R$ 20,00</p>
+        </div>
+
+        <div class="card">
+            <h2>Pizza de Frango com Catupiry</h2>
+            <p>Maravilhosa combinação de frango desfiado e catupiry.</p>
+            <p>R$ 30,00</p>
+        </div>
+
+        <div class="card">
+            <h2>Pizza Portuguesa</h2>
+            <p>Pizza com presunto, mussarela, cebola, ovos e azeitonas.</p>
+            <p>R$ 28,00</p>
+        </div>
+
+        <div class="card">
+            <h2>Pizza de Quatro Queijos</h2>
+            <p>Combinação irresistível de quatro tipos de queijo.</p>
+            <p>R$ 32,00</p>
+        </div>
+
+        <div class="card">
+            <h2>Pizza de Pepperoni</h2>
+            <p>Salame picante que dá um toque especial à pizza.</p>
+            <p>R$ 27,00</p>
+        </div>
+
+        <div class="card">
+            <h2>Pizza de Vegetariana</h2>
+            <p>Pizza com diversos legumes e queijo derretido.</p>
+            <p>R$ 26,00</p>
+        </div>
+
+        <div class="card">
+            <h2>Pizza de Bacon</h2>
+            <p>Pizza com generosas fatias de bacon crocante.</p>
+            <p>R$ 29,00</p>
+        </div>
+
+        <div class="card">
+            <h2>Pizza de Chocolate</h2>
+            <p>Opção doce com chocolate derretido e frutas.</p>
+            <p>R$ 20,00</p>
+        </div>
+    </div>
+</body>
+</html>
