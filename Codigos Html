@@ -936,3 +936,79 @@ HTML CHIKA DANCE
     font-size: x-large;
 }                       
 )
+###################################################################
+
+c
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculadora</title>
+<style>
+    .calculator {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    button {
+        padding: 10px;
+        border: 1px solid #ccc;
+        background-color: #f0f0f0;
+        cursor: pointer;
+    }
+    button:hover {
+        background-color: #e0e0e0;
+    }
+</style>
+</head>
+<body>
+<div class="calculator">
+    <button onclick="addToScreen(1)">1</button>
+    <button onclick="addToScreen(2)">2</button>
+    <button onclick="addToScreen(3)">3</button>
+    <button onclick="addToScreen('+')">+</button>
+    <button onclick="addToScreen(4)">4</button>
+    <button onclick="addToScreen(5)">5</button>
+    <button onclick="addToScreen(6)">6</button>
+    <button onclick="addToScreen('-')">-</button>
+    <button onclick="addToScreen(7)">7</button>
+    <button onclick="addToScreen(8)">8</button>
+    <button onclick="addToScreen(9)">9</button>
+    <button onclick="addToScreen('*')">*</button>
+    <button onclick="addToScreen(0)">0</button>
+    <button onclick="clearScreen()">C</button>
+    <button onclick="calculate()">=</button>
+    <button onclick="addToScreen('/')">/</button>
+</div>
+
+<div>
+    <input type="text" id="screen" disabled>
+</div>
+
+<script>
+    const screen = document.getElementById('screen');
+
+    function addToScreen(value) {
+        screen.value += value;
+    }
+
+    function clearScreen() {
+        screen.value = '';
+    }
+
+    function calculate() {
+        try {
+            screen.value = eval(screen.value);
+        } catch (error) {
+            screen.value = 'Error';
+        }
+    }
+</script>
+</body>
+</html>
